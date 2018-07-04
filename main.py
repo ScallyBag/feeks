@@ -174,8 +174,7 @@ def main():
                         board.push_uci(parts[nr])
 
                     elif parts[nr] ==  'fen':
-                        board = Board(' '.join(parts[nr + 1:]))
-                        break
+                        board = Board(' '.join(parts[nr + 1:nr + 7]))
 
                     elif parts[nr] == 'startpos':
                         board = Board()
