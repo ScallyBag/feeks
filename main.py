@@ -18,7 +18,7 @@ from tt import tt_init, tt_lookup
 from brain import calc_move, cm_thread_start, cm_thread_check, cm_thread_stop, random_move, evaluate, pc_to_list
 from log import set_l, l
 
-tt_n_elements = 1024 * 8
+tt_n_elements = 1
 ponder = False
 benchmark = False
 epd = False
